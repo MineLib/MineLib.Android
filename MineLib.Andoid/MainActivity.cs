@@ -1,9 +1,10 @@
 ﻿using System.Reflection;
-using System.Security.Cryptography;
+
 using Android.App;
 using Android.Content.PM;
 using Android.Views;
 using Android.OS;
+
 using Microsoft.Xna.Framework;
 using MineLib.PCL.Graphics;
 

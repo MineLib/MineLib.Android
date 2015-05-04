@@ -1,0 +1,9 @@
+[submodule "MineLib.PCL"]
+	path = MineLib.PCL
+	url = https://github.com/MineLibOrg/MineLib.PCL.git
+[submodule "ProtocolModern.Portable"]
+	path = ProtocolModern.Portable
+	url = https://github.com/MineLibOrg/ProtocolModern.Portable.git
+[submodule "MineLib.Network.Modular"]
+	path = MineLib.Network.Modular
+	url = https://github.com/MineLibOrg/MineLib.Network.Modular.git
