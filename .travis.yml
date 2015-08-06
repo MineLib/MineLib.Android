@@ -1,0 +1,25 @@
+language: csharp
+mono:
+  - latest
+  
+sudo: false
+addons:
+  apt:
+    packages:
+      - libmonogame-cil-dev
+
+solution: MineLib.Android.sln
+
+before_install:
+  - git submodule update --init --recursive
+  
+install:
+  - nuget restore MineLib.Android.sln
+
+script:
+  - xbuild /p:Configuration=Release MineLib.Android.sln
+  - xbuild /p:Configuration=Debug MineLib.Android.sln
+
+notifications:
+  email:
+    on_success: always
