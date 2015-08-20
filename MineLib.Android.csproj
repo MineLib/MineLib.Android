@@ -166,9 +166,13 @@
       <Project>{c6be1779-61e7-4c62-989a-9fa62acb2c78}</Project>
       <Name>MineLib.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="MineLib.PCL\MineLib.PCL.csproj">
+    <ProjectReference Include="MineLib.PGL\MineLib.PGL.csproj">
       <Project>{5fb0d09e-5f52-46b6-b018-66381e4a02ae}</Project>
       <Name>MineLib.PCL</Name>
+    </ProjectReference>
+    <ProjectReference Include="ProtocolModern\ProtocolModern.csproj">
+      <Project>{ceba6ffc-494a-43a2-8847-8efa99d88605}</Project>
+      <Name>ProtocolModern</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

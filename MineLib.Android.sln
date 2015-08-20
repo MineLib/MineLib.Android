@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLib.Android", "MineLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLib.Core", "MineLib.Core\MineLib.Core.csproj", "{C6BE1779-61E7-4C62-989A-9FA62ACB2C78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLib.PCL", "MineLib.PCL\MineLib.PCL.csproj", "{5FB0D09E-5F52-46B6-B018-66381E4A02AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MineLib.PGL", "MineLib.PGL\MineLib.PGL.csproj", "{5FB0D09E-5F52-46B6-B018-66381E4A02AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fNbt.Portable", "MineLib.Core\fNbt\fNbt\fNbt.Portable.csproj", "{22AC9F07-35CA-4E0E-B3B8-4A8E719DF529}"
 EndProject
